@@ -408,7 +408,9 @@ Provides access to the currently executing [span](http://docs.newrelic.com/docs/
 ### Example
 
 ```
-IAgent agent = NewRelic.Api.Agent.NewRelic.GetAgent(); ITransaction transaction = agent.CurrentTransaction; ISpan = currentSpan = transaction.CurrentSpan;
+IAgent agent = NewRelic.Api.Agent.NewRelic.GetAgent(); 
+ITransaction transaction = agent.CurrentTransaction; 
+ISpan = currentSpan = transaction.CurrentSpan;
 ```
 
 ## Examples
